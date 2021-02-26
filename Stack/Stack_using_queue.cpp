@@ -7,6 +7,50 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+class  Making_push_costly{
+    int N;
+    queue<int> q1;
+    queue<int> q2;
+
+    public:
+    Making_push_costly(){
+        N = 0;
+    }
+
+    void push(int val){
+        
+        //Step 1:
+        q2.push(val);
+        N++;
+        
+        //Step 2;
+        while(!q1.empty()){
+            q2.push(q1.front());
+            q1.pop();
+        }
+
+        //Step 3:
+        queue<int> temp = q1;
+        q1 = q2;
+        q2 = temp;
+
+    }
+    void pop(){
+        q1.pop();
+        N--;
+    }
+
+    int top(){
+        return q1.front();
+    }
+
+    int size(){
+        return N;
+    } 
+
+};
+
+
 class Making_pop_costly{
     int N;
     queue<int> q1;
