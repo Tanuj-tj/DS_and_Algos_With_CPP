@@ -44,6 +44,36 @@ void postorder(Node* root){
     postorder(root->left);
     postorder(root->right);
     cout<<root->data<<" ";
+	
+}
+void levelorder(Node* root){
+
+    // Base Condition
+    if(root == NULL)
+        return ;
+
+    queue<Node*> q; // Empty Queue
+
+    q.push(root);
+
+    while(!q.empty()){
+        
+
+        // Print front of queue and remove it from queue
+        Node* node = q.front();
+        cout<<node->data<<" ";
+        q.pop();
+  
+        // Enqueue Left Child
+        if(node->left != NULL){
+            q.push(node->left);
+        }
+        // Enqueue right Child
+        if(node->right != NULL){
+            q.push(node->right);
+        }
+    }
+
 }
 
 int main(){
@@ -66,6 +96,10 @@ int main(){
     
     cout<<"Postorder : ";
     postorder(root);
+    cout<<endl;
+
+    cout<<"Levelorder : ";
+    levelorder(root);
     cout<<endl;
     
     /* 
