@@ -8,7 +8,7 @@ public:
       
         vector<int> ans;
         
-        int count1 = 0, count2 = 0, num1=-1,num2=-1;
+        int count1 = 0, count2 = 0, num1=INT_MIN,num2=INT_MIN;
         
         for(int i=0;i<nums.size();i++){         // O(N)
             
