@@ -1,3 +1,12 @@
+/*
+Steps :
+1. Create an unordered set and put all the elements into it
+2. check for every ith element if nums[i]-1 does not exis in set
+3  If not then keep count = 1 and check for every nums[i]+1 element inside set 
+    - if present then count++
+    - keep track of maxCount 
+*/
+
 class Solution {
 public:
     
@@ -5,7 +14,7 @@ public:
     int longestConsecutive(vector<int>& nums) {
         
         // Create a set
-        set<int> st;
+        unordered_set<int> st;
         
         // Push the elements into set
         for(int i:nums){
