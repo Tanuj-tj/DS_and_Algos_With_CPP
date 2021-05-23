@@ -1,3 +1,6 @@
+// Problem Link : https://www.spoj.com/problems/GNYR09F/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long int
