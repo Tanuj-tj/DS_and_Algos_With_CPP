@@ -21,7 +21,7 @@ bool find(vector<int> &arr,int key){
             }
         }
         else{
-            if( (arr[end] > key) and (arr[mid] < key) ){
+            if( (arr[end] >= key) and (arr[mid] < key) ){
                 start = mid + 1;
             }
             else{
