@@ -1,3 +1,18 @@
+/*
+Given two non-empty strings, write a function that
+determines whether the second string is subsequence of
+first one.
+
+Sample Input :
+
+codingminutes
+cines
+
+Sample Output :
+Yes
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
