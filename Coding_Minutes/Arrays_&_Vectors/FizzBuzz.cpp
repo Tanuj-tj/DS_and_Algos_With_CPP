@@ -1,3 +1,16 @@
+/* 
+Write a Fizzbuzz function that returns a vector<string> with the numbers from 1 to n with
+the following restrictions:
+
+* for multiples of 3 store "Fizz" instead of the number
+
+* for multiples of 5 store "Buzz" instead of the number
+
+* for numbers which are multiples of both 3 and 5 store "FizzBuzz"
+You may use the std: :to_str‘ing(number‘) method to convert a number into a string.   
+*/
+
+
 #include<iostream>
 #include<vector>
 #include<string>
