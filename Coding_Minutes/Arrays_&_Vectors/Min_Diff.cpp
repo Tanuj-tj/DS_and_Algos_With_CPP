@@ -1,3 +1,19 @@
+/*
+Implement a function that takes in two non-empty arrays of integers, finds the pair of numbers
+(one from each array) who absolute difference is closest to zero, and returns a pair containing
+these two numbers, with the first number from array. Only one such pair will exist for the test.
+
+Input :
+
+Arrayl = [23, 5, 1a, 17, 3a]
+
+Array2 = [26, 134, 135, 14, 19]
+
+Output :
+17,19
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
