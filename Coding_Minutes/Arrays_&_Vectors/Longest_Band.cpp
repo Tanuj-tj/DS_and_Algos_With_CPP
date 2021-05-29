@@ -1,3 +1,13 @@
+/*
+Given an array containing N integers, find length of longest band.
+
+A band is defined as a subsequence which can be re- ordered in such a manner all elements appear
+consecutive (ie with absolute difference of1 between neighbouring elements)
+
+A longest band is the band (subsequence) which contains maximum integers.
+*/
+
+
 // Approach :
 // 1. Sort + Traverse => O(NlogN + N)
 // 2. Maintain a unordered_set O(1) + traverse and check O(N)
