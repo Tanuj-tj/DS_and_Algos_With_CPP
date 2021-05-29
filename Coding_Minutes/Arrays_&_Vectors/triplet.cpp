@@ -1,4 +1,29 @@
 /*
+Given an array containing N integers, and an number S denoting a target sum.
+
+Find all distinct integers that can add up to form target
+sum. The numbers in each triplet should be ordered in
+ascending order, and triplets should be ordered too.
+Return empty array if no such triplet exists.
+
+Input
+
+array=[1, 2, 3, 4, 5, 6, 7, 8, 9,15]
+target=18
+
+Output
+
+[[1, 2, 15],
+
+[3, 7, 8]
+
+[4, 6, 8]
+
+[5, 6, 7]]
+
+*/
+
+/*
 Approaches :
 1. Bruit Force using nested loop : O(N^2)
 2. Sort + 2 Pointers = O(NLogN) + O(N^2) => o(n^2)
