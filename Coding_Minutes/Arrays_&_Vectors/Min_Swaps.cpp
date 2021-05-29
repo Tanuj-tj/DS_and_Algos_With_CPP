@@ -1,3 +1,13 @@
+/*
+Given an array of size N, find the minimum number of swaps needed to make the array as sorted.
+
+Sample Input :
+a1 = [5,4,3,2,1]
+
+Sample Output : 
+2 
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
