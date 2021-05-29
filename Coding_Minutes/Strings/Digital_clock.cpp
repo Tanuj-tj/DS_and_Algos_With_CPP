@@ -21,7 +21,7 @@ string convert_to_digital_time(int minutes){
     // the count will be the minutes and the remaining minutes/60 will be hours => hours:mins
   
 int min_count = 00;
-    while(minutes / 60 < 24){
+    while(minutes){
         if(minutes % 60 == 0){
             if(min_count<10){
                 return to_string(minutes / 60)+":0"+to_string(min_count);    
