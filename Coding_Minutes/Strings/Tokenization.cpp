@@ -1,3 +1,15 @@
+/*
+Tokenizing a string denotes splitting a string with
+respect to some delimiter(s).
+
+Input :
+"today is a sunny day"
+
+Output :
+"tOday", "is", "all, llsunnyll’lldayll
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
