@@ -1,3 +1,16 @@
+/*
+Given a string, write a function to replace all sp aces in a
+string with '%20'. It is given that the string has sufficient
+space at the end to hold the additional characters.
+
+Sample Input :
+hello world, how are you?
+
+Sample Output :
+hello%20wor1d,%20%20how%20are%20you?
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
