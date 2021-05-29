@@ -15,8 +15,6 @@ b3a4d1e1x6
 abc
 '''
 
-list_input = list()
-
 def compressString(string:str) -> str:
     
     words = string.split()
