@@ -1,3 +1,14 @@
+/*
+You are given a string, you need to print all Eubsequences
+of the string sorted by length and lexicographic sorted
+order if length is same.
+
+Sample Input :
+abcd
+Sample Output :
+,a,b,c,d,ab,ac,ad,bc,bd,cd,abc,abd,acd,bcd,abcd,
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
