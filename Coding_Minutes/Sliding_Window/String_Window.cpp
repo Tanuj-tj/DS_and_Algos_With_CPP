@@ -105,8 +105,11 @@ int main(){
     string t1 = "fuzz";
     string s2 = "hello_world";
     string t2 = "lol";
+    string s3 = "ADOBECODEBANC"; 
+    string t3 = "ABC";
     cout<<obj->minWindow(s1,t1)<<endl;
     cout<<obj->minWindow(s2,t2)<<endl;
+    cout<<obj->minWindow(s3,t3)<<endl;
     
     return 0;
 }
