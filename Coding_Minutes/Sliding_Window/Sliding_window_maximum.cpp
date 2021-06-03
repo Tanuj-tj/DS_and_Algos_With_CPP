@@ -16,6 +16,7 @@ output = {3,3,4,5,5,5,6}
 
 */
 
+// Not an optimal one Comlexity : O(N*K)
 
 #include<bits/stdc++.h>
 using namespace std;
