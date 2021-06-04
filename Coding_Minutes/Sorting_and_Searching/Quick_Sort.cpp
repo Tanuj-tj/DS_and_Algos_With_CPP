@@ -1,6 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+Steps :
+1. Choose A pivot element (can choose Last element of array)
+2. Partition
+3. Recursive calls on partitions 
+
+*/
+
 // partition the array with pivit in its correct location
 int partition(vector<int> &arr,int s,int e){
 
