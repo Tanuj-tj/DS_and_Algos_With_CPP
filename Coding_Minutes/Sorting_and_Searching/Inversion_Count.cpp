@@ -1,3 +1,20 @@
+/*
+Inversion Count
+---------------
+
+Given an array containing integers, you need to count the total number of inversions.
+
+Inversion :- Two elements a[i] and a[j] form an inversion if a[i] > a[j] and i <j.
+
+Sample Input :
+
+[0, 5, 2, 3, 1]
+
+Sample Output :
+
+5
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
