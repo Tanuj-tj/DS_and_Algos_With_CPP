@@ -1,6 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/* Steps :
+   1. Divide
+   2. MergeSort(Left) and MergeSort(Right)
+   3. Merge(left+Right)
+*/ 
+
 // Merge
 // Helper Function
 void merge(vector<int> &arr,int s,int e,int mid){  // s = 0, e = 1
