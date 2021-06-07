@@ -1,0 +1,43 @@
+/*
+RECURSION 
+=========
+
+Recursion is the process of defining a problem (or the soluton to a problem)
+in terms of (a simpler version of itself)
+
+Example :
+we can define the operation "Go to Home" as:
+
+Base Case 
+1. if you are at home, stop moving.
+
+Recursive Case 
+2. Take one step toward home.
+3. "Go To Home".
+
+// Recursive Function
+void goHome(x,Home){
+    if(x==Home){
+        print("Reached Home")
+        return;
+    }
+
+    x = x + 1;
+    goHome(x,Home);
+}
+
+// Main Function
+int main(){
+    int x = 1
+    int Home = 10
+    goHome(x,Home);
+}
+
+
+Recursion = Principle of Mathemaical Inducion
+
+1. Figure out the Smallest Case
+2. Always Assume the Subproblems can be solved
+3. Solve the current problem assuming subproblem solution exists
+
+*/
