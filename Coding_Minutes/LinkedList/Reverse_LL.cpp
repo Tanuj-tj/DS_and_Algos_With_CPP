@@ -44,7 +44,7 @@ void insertAtHead(Node* &head, int data){
 
 }
 
-// Revese Recursively  : TC => O(N) , SC => o(N)
+// Revese Recursively  : TC => O(N) , SC => O(N)
 
 Node* reverseRec(Node* head){
     
@@ -61,7 +61,7 @@ Node* reverseRec(Node* head){
     return sHead;
 }
 
-// Iterative Reverse : TC => O(N) , SC => o(1)
+// Iterative Reverse : TC => O(N) , SC => O(1)
 
 void reverseIter(Node* &head){
 
