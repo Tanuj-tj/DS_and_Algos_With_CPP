@@ -31,7 +31,7 @@ Deque
 * Push_Front and Pop_Front
 * Front & Back
 
-Imp Points :
+<strong>Imp Points :</strong>
 
 * Stacks & Queue are used as helpful data structures in many other data structures in many other problems
 * Less variety on standalone problems 
