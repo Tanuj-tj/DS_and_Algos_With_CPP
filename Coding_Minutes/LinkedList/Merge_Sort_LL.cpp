@@ -43,6 +43,7 @@ void insertAtHead(Node* &head, int data){
 
 // --------------------------------------//
 
+// Merge Function
 Node* merge(Node* a, Node* b){
     
     // base case
@@ -68,7 +69,7 @@ Node* merge(Node* a, Node* b){
 }
 
 
-
+// Mid Point Function
 Node* midPoint(Node* head){
     Node* slow = head;
     Node* fast = head;
@@ -81,6 +82,7 @@ Node* midPoint(Node* head){
     return slow;
 }
 
+// Merge Sort Function
 Node* mergeSort(Node* head){
 
     if(head==NULL or head->next==NULL){
