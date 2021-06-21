@@ -5,6 +5,16 @@ A band is defined as a subsequence which can be re- ordered in such a manner all
 consecutive (ie with absolute difference of1 between neighbouring elements)
 
 A longest band is the band (subsequence) which contains maximum integers.
+
+I/P :
+[1,9,3,0,18,5,2,4,10,7,12,6]
+
+O/P :
+8
+
+Explainations :
+Largest subset containing consecuive numbers is {0,1,2,3,4,5,6,7}
+
 */
 
 
