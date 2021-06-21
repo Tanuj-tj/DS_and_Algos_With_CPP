@@ -13,7 +13,7 @@ Both inputs and outputs are vectors.
 {1,2,3,4,5}
 
 Sample Output :
-{120, 6e, 4e, 3e, 24}
+{120, 60, 40, 30, 24}
 
 */
 
