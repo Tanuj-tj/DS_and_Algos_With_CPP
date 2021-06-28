@@ -109,3 +109,40 @@ def main():
     print(fact(7))
     
 main()
+
+
+# Sum of digits up till one 
+
+"""
+Eg.  12345
+
+1 + 2 + 3 + 4 + 5 => 15
+1 + 5 = 6
+
+"""
+
+def sumUpTillOne(n):
+    if(n < 10):
+        return n
+    
+    return sumUpTillOne(sumOfDigits(n))
+
+
+def sumOfDigits(n):
+    
+    if(n==0):
+        return 0
+    
+    
+    last = n % 10
+    
+    rem = n // 10
+    
+    return last + sumUpTillOne(rem)
+    
+
+def main():
+    N = 12345
+    print(sumUpTillOne(N))
+    
+main()
