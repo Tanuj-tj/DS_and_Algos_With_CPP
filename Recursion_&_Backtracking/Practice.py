@@ -146,3 +146,49 @@ def main():
     print(sumUpTillOne(N))
     
 main()
+
+
+# Tower of Hanoi 
+
+'''
+
+You have thr e rods (A, B, C) and N discs. Your task is to move the N discs from
+rod A to rod C Print the steps to do this in minimum number of moves. You must
+follow the following rules:
+
+1. You may move only one disk at a time.
+
+2. A larger disc can never be on top of a smaller disc.
+
+
+SOlution :
+
+moving n discs from A to B = Moving (n-1) discs from A to C 
+                             + Moving 1 disc from A to B
+                             + Moving (n-1) discs from C to B
+
+'''
+
+
+def towerOfHanoi(n,sourceRoad, desRoad, auxRoad):
+    
+    # Base Case
+    if(n==1):
+        print(sourceRoad+"->"+desRoad)
+        return
+    
+    towerOfHanoi(n-1,sourceRoad,auxRoad,desRoad);
+    print(sourceRoad+"->"+desRoad)
+    towerOfHanoi(n-1,auxRoad,desRoad,sourceRoad);
+         
+    
+
+
+
+
+def main():
+    n = 3
+    towerOfHanoi(n,"A","B","C")
+    
+    
+main()
