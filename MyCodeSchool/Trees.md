@@ -1,3 +1,5 @@
+# Introduction to trees
+
 ![Capture](https://user-images.githubusercontent.com/63875409/123982830-fa4a3100-d9e0-11eb-9820-eb17f75a9bb8.PNG)
 
 
@@ -17,4 +19,10 @@
 ![Capture](https://user-images.githubusercontent.com/63875409/123985045-c53ede00-d9e2-11eb-95a0-67dfda404d5b.PNG)
 
 
+# Binary Trees
+
+![Capture](https://user-images.githubusercontent.com/63875409/123986022-92e1b080-d9e3-11eb-85e0-eb3f3e0b71a1.PNG)
+
+
+![Capture](https://user-images.githubusercontent.com/63875409/123986162-b3aa0600-d9e3-11eb-8d97-970d4042c384.PNG)
 
