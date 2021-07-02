@@ -92,3 +92,75 @@ int main()
 }
  
 ```
+
+# Preorder , Postorder , Inorder
+
+```
+
+# Node Class : Left | data | Right
+class BstNode:
+    def __init__(self,key):
+        self.left = None
+        self.right = None
+        self.data = key
+
+
+def Inorder(root):
+    
+    if root:
+        Inorder(root.left)
+        print(root.data,end=" ")
+        Inorder(root.right)
+
+
+def Preorder(root):
+    
+    if root:
+        print(root.data,end=" ")
+        Preorder(root.left)
+        Preorder(root.right)
+
+
+
+def Postorder(root):
+    
+    if root:
+        Postorder(root.left)
+        Postorder(root.right)
+        print(root.data,end=" ")
+
+
+
+def Insert(root:BstNode,key:int):
+
+    if root is None:
+        return BstNode(key)
+
+    else:
+        if root.data == key:
+            return root
+
+        elif root.data < key:
+            root.right = Insert(root.right, key)
+
+        else:
+            root.left = Insert(root.left,key)
+
+    return root 
+
+
+root = BstNode(15)
+r = Insert(root, 10)
+r = Insert(root, 20)
+r = Insert(root, 8)
+r = Insert(root, 14)
+r = Insert(root, 17)
+r = Insert(root, 25)
+
+Inorder(root)
+print()
+Postorder(root)
+print()
+Preorder(root)
+    
+```
