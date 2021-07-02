@@ -164,3 +164,7 @@ print()
 Preorder(root)
     
 ```
+
+Output :
+
+![Capture](https://user-images.githubusercontent.com/63875409/124295190-2fd45300-db76-11eb-896b-fd653f8dfe15.PNG)
