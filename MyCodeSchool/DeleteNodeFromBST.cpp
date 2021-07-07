@@ -162,3 +162,20 @@ int main()
 
     return 0;
 }
+
+/*
+
+Output :
+
+Before Deletion
+12 5 3 1 7 9 15 13 17 
+After Deleting Leaf node
+12 5 3 1 7 15 13 17 
+After Deleting node with 1 child
+12 5 3 1 15 13 17 
+After Deleting node with 2 child
+12 5 3 1 17 13
+
+
+*/
+
