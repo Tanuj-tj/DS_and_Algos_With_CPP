@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// O(N) , O(1)
 void reverseArray(int arr[],int n){
     
     int s = 0; 
