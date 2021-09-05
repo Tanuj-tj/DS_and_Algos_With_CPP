@@ -30,6 +30,13 @@ int main(){
 	cin.getline(sentence,1000);
 
 	cout<<sentence<<endl;
+	
+	// 4.
+	char paragraph[1000];
+
+	cin.getline(paragraph,1000,'.');
+
+	cout<<paragraph<<endl;
    
 
 	return 0;
