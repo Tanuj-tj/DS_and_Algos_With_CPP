@@ -27,17 +27,7 @@ vector<int> WavePrint(int m, int n, vector<vector<int>> arr)
 			check--;		
     	}
 	
-
-	// for(int i = top ; i <= down ; i++){
-	// 	ans.push_back(arr[i][right]);
-	// }
-	// right--;
-
-	// for(int i = down ; i >= top ; i--){
-	// 	//cout<<i<<" ";
-	// 	ans.push_back(arr[i][right]);
-	// }
-	}
+   }
 	return ans;
 
 
