@@ -38,6 +38,10 @@ int main(){
 
 	cout<<paragraph<<endl;
    
-
+        // 5.
+	
+	string str;
+	getline(cin, str);
+	
 	return 0;
 }
