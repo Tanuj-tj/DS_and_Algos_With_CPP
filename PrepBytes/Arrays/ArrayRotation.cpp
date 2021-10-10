@@ -66,7 +66,11 @@ int main()
     int n,d; cin>>n>>d;
     int arr[n];
     for(int i = 0 ; i < n ; i++) cin>>arr[i];
-        
+    
+    if(k > n){
+      k = k % n;
+    }
+  
     // rotate_with_extra_space(arr,n,d);
      rotate_inplace(arr,n,d);
     //reversal_Algo(arr,n,d);
